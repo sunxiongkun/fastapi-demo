@@ -1,0 +1,16 @@
+pip>=22.0.0
+supervisor>=4.2.0
+aiomysql
+cache
+aioredis
+cacheout
+cityhash
+dbutils
+fastapi[all]
+gunicorn
+python-json-logger
+redis
+sqlacodegen
+sqlalchemy
+uvicorn[standard]
+uvloop

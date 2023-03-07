@@ -1,0 +1,54 @@
+######################
+# Project Specific
+######################
+.metadata/**
+Servers/**
+
+######################
+# Intellij
+######################
+.idea
+.idea/*
+.idea/*/*
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+.project
+/tmp/**
+*.tmp
+*.bak
+*.swp
+.classpath
+.settings
+.settings/**
+.buildpath
+
+######################
+# Maven
+######################
+/gen-mapper/**
+/log/**
+/logs/**
+/**/target/**
+*.log
+
+######################
+# Gradle
+######################
+.gradle/**
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.db
+!maven-local-repo/*.jar
+!lib/*.jar
+!lib/**/*.jar
+
+*.DS_Store
+
+/proto/**

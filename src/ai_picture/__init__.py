@@ -1,0 +1,1 @@
+from .controller import router as ai_picture_api
